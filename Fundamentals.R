@@ -25,3 +25,5 @@ plot(baseball$rbi, baseball$r)
 cor(baseball$rbi, baseball$r)
 # Making a chart with tags
 plot(baseball$team, baseball$rbi, xlab = "Team", ylab = "RBI")
+# Outputting a table
+table(baseball$lg, baseball$team)
