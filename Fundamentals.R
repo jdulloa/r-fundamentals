@@ -23,3 +23,5 @@ median(sortedNumbers)
 plot(baseball$rbi, baseball$r)
 # Correlation command
 cor(baseball$rbi, baseball$r)
+# Making a chart with tags
+plot(baseball$team, baseball$rbi, xlab = "Team", ylab = "RBI")
