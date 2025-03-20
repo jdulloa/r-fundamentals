@@ -27,3 +27,7 @@ cor(baseball$rbi, baseball$r)
 plot(baseball$team, baseball$rbi, xlab = "Team", ylab = "RBI")
 # Outputting a table
 table(baseball$lg, baseball$team)
+# Welch's Two Sample t-test
+t.test(rbi~lg, baseball)
+# Two Sample t-test
+t.test(rbi~lg, var.equal = T, baseball)
