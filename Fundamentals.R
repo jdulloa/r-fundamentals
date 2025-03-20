@@ -31,3 +31,7 @@ table(baseball$lg, baseball$team)
 t.test(rbi~lg, baseball)
 # Two Sample t-test
 t.test(rbi~lg, var.equal = T, baseball)
+# Evaluating before and after a season
+sleep
+# Paired t-test
+t.test(sleep$extra ~ sleep$group, paired = T)
